@@ -77,7 +77,7 @@ color: #292929;display: flex;justify-content: center;align-items: center;flex-di
 .kalka-text{text-align: top left;position: absolute;top: 0%; left:55%;transform: translate(-100%,10%);color: white; width: 50%;}
 
 .login-page{width: 380;height: 450px;background:rgb(235,235,235);
-    position: absolute;top:350%;left: 50%;transform: translate(-50%,50%);
+    position: absolute;top:380%;left: 50%;transform: translate(-50%,50%);
     color: #292929;display: flex;justify-content: center;align-items: center;flex-direction: column;transition: all  .4s;}
 
 }
