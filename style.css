@@ -1,0 +1,83 @@
+body{margin: 50;font-family: arial,helvetica,sans-serif;background-color: grey;}
+
+.temple-image{background-image: url(bird.jpeg);background-color: black;height: 500px;background-position: left;background-repeat: no-repeat;background-size: cover;position: relative;}
+
+.temple-text{text-align: right;position: absolute;top: 35%;left: 20%;transform: translate(-50%,50%);color: black;}
+
+.pranjal-image{background-image: url(auto.jpeg);background-color: grey;height: 600px;background-position: right;background-repeat: no-repeat;background-size: contain;position: relative;border: 2px solid white;}
+
+.pranjal-text{text-align: top left;position: absolute;top: 4%; left:55%;transform: translate(-100%,20%);color: white;}
+
+.moon-image{background-image: url(moon.jpeg);background-color: grey;height: 600px;background-position: left;background-repeat: no-repeat;background-size: contain;position: relative;border: 2px solid white;}
+
+.moon-text{text-align: top left;position: absolute;top: 3%; left:55%;transform: translate(-30%,40%);color: rgb(117, 80, 80);}
+
+
+
+.kalka-image{background-image: url(kalka.jpeg);background-color: grey;height: 600px;background-position: right;background-repeat: no-repeat;background-size: contain;position: relative;border: 2px solid white;}
+
+.kalka-text{text-align: top left;position: absolute;top: 4%; left:55%;transform: translate(-100%,20%);color: white;}
+
+ul{list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color:none;position:absolute;top:0;width: 95%;}
+
+li{float: left;}
+
+li a{display:inline-block;color: white;text-align: center;padding: 17px 16px;text-decoration: none;text-align: center;margin: 0 100;font-family: arial sans-serif;font-size: 25;border-top: 20px}
+
+li a:hover(.active){background-color: black;}
+
+.active{background-color: none;}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+*{ margin: 0;padding: 0;font-family: 'hammersmith one',sans-serif;box-sizing: border-box; }
+
+body{ height: 100vh;background:linear-gradient(to right,#333999,#ff00cc); }
+
+.login-page{width: 350;height: 450px;background:rgb(235,235,235);
+position: absolute;top:275%;left: 50%;transform: translate(-50%,50%);
+color: #292929;display: flex;justify-content: center;align-items: center;flex-direction: column;transition: all  .4s;}
+
+.login-page:hover{box-shadow: 0 0 50px rgba(0,0,0,0.300);}
+
+.login-page h1{margin-bottom: 30px;}
+
+.login-page form{display: flex;flex-direction: column;justify-content: center;align-items: center;}
+
+.login-page form input{width: 250px;height: 35px;margin: 8px;background:rgb(218,218,218);border: none;outline: none;transition: all .4s;}
+
+.login-page form input:focus{background:rgb(194,194,194);}
+
+.login-page form .btn{width: 250px;height: 35px;margin: 8px;background:#db02b0cc;color:#e2e2e2;border:none;outline:none;cursor:pointer;transition: all .4s;}
+
+.login-page form .btn:hover{background:#db02b08f;}
+
+.icon{width: 250px;height: 40px;display: flex;margin: 10px 0;justify-content: space-between;align-items: center;}
+
+.icon div{width: 122px;height: 40px;border: 2px solid #3b5998;display: flex;justify-content: center;align-items: center;margin: 0 2px;transition: all .4s; cursor:pointer;}
+.icon div:nth-child(2){border: 2px solid #4285f4;}
+
+.icon div i{color: #3b5998;margin: 8px;transition: all .4s;}
+
+.icon div .fa-google{color: #4285f4;}
+
+.icon div:hover:nth-child(1){background: #3b5998;color:#e2e2e2;}
+
+.icon div:hover:nth-child(2){background:#4285f4;color:#e2e2e2;}
+
+@media (max-device-width:1600px){
+    .pranjal-text {text-align: top left;position: absolute;top: 0%; left:55%;transform: translate(-100%,10%);color: white;overflow: visible;width:50% ;  
+}
+.moon-text{text-align: top left;position: absolute;top: 0%; left:55%;transform: translate(-10%,10%);color: rgb(255, 255, 255);height: 50%;width: 50%;}
+
+.kalka-text{text-align: top left;position: absolute;top: 0%; left:55%;transform: translate(-100%,10%);color: white; width: 50%;}
+
+.login-page{width: 350;height: 450px;background:rgb(235,235,235);
+    position: absolute;top:350%;left: 50%;transform: translate(-50%,50%);
+    color: #292929;display: flex;justify-content: center;align-items: center;flex-direction: column;transition: all  .4s;}
+
+}
